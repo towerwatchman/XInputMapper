@@ -1,0 +1,16 @@
+c:\users\bgibson\documents\visual studio 2013\Projects\XInputMapper\XInputMapper\bin\Debug\Appicon.ico
+c:\users\bgibson\documents\visual studio 2013\Projects\XInputMapper\XInputMapper\bin\Debug\XInputMapper.exe.config
+c:\users\bgibson\documents\visual studio 2013\Projects\XInputMapper\XInputMapper\bin\Debug\XInputMapper.exe
+c:\users\bgibson\documents\visual studio 2013\Projects\XInputMapper\XInputMapper\bin\Debug\XInputMapper.pdb
+c:\users\bgibson\documents\visual studio 2013\Projects\XInputMapper\XInputMapper\bin\Debug\SharpDX.DirectInput.dll
+c:\users\bgibson\documents\visual studio 2013\Projects\XInputMapper\XInputMapper\bin\Debug\SharpDX.XInput.dll
+c:\users\bgibson\documents\visual studio 2013\Projects\XInputMapper\XInputMapper\bin\Debug\SharpDX.dll
+c:\users\bgibson\documents\visual studio 2013\Projects\XInputMapper\XInputMapper\bin\Debug\SharpDX.DirectInput.xml
+c:\users\bgibson\documents\visual studio 2013\Projects\XInputMapper\XInputMapper\bin\Debug\SharpDX.XInput.xml
+c:\users\bgibson\documents\visual studio 2013\Projects\XInputMapper\XInputMapper\bin\Debug\SharpDX.xml
+c:\users\bgibson\documents\visual studio 2013\Projects\XInputMapper\XInputMapper\obj\Debug\XInputMapper.Properties.Resources.resources
+c:\users\bgibson\documents\visual studio 2013\Projects\XInputMapper\XInputMapper\obj\Debug\XInputMapper.csproj.GenerateResource.Cache
+c:\users\bgibson\documents\visual studio 2013\Projects\XInputMapper\XInputMapper\obj\Debug\XInputMapper.exe
+c:\users\bgibson\documents\visual studio 2013\Projects\XInputMapper\XInputMapper\obj\Debug\XInputMapper.pdb
+C:\Users\bgibson\Documents\Visual Studio 2013\Projects\XInputMapper\XInputMapper\obj\Debug\XInputMapper.csprojResolveAssemblyReference.cache
+C:\Users\bgibson\documents\visual studio 2013\Projects\XinputMapper\XInputMapper\obj\Debug\XInputMapper.Debug_Console.resources
