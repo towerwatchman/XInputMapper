@@ -5,7 +5,6 @@ using System.Text;
 using System.Threading;
 using SharpDX.XInput;
 using System.Diagnostics;
-using SharpDX.DirectInput;
 using System.Windows.Forms;
 using System.Runtime.InteropServices;
 using System.ComponentModel;
@@ -40,11 +39,18 @@ namespace XInputMapper
 
         public void Initialize()
         {
-
-            _controller[0] = new Controller(UserIndex.One); // Get Controller at index 0
-            _controller[1] = new Controller(UserIndex.Two); // Get Controller at index 1
-            _controller[2] = new Controller(UserIndex.Three); // Get Controller at index 2
-            _controller[3] = new Controller(UserIndex.Four); // Get Controller at index 3
+            Console.Out.WriteLine("Attempting to Connect Controllers");
+            try
+            {
+                _controller[0] = new Controller(UserIndex.One); // Get Controller at index 0
+                _controller[1] = new Controller(UserIndex.Two); // Get Controller at index 1
+                _controller[2] = new Controller(UserIndex.Three); // Get Controller at index 2
+                _controller[3] = new Controller(UserIndex.Four); // Get Controller at index 3
+            }
+            catch(Exception ex)
+            {
+                Console.Out.WriteLine(ex);
+            }
 
             t = new System.Threading.Timer(TimerCallback, null, 0, 100); // Timer set for 100ms
         }
@@ -81,14 +87,14 @@ namespace XInputMapper
 
         private static void DisplayControllerInformation()
         {
-            //Console.Clear();
+            Console.Clear();
             foreach (var controller in _controller)
             {
                 if (controller.IsConnected)
                 {
                     var state = controller.GetState();
 
-                    //Console.Out.WriteLine("Player: (" + controller.UserIndex.ToString() + ") -- " + state.Gamepad.Buttons.ToString());
+                    Console.Out.WriteLine("Player: (" + controller.UserIndex.ToString() + ") -- " + state.Gamepad.Buttons.ToString());
 
                     if (time <= 1)
                     {
@@ -128,7 +134,7 @@ namespace XInputMapper
                 }
                 else
                 {
-                    //Console.Out.WriteLine("Player: (" + controller.UserIndex.ToString() + ") -- Not Connected");
+                    Console.Out.WriteLine("Player: (" + controller.UserIndex.ToString() + ") -- Not Connected");
                 }
             }
 

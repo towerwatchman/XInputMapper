@@ -23,7 +23,7 @@ namespace XInputMapper
             ToolStripSeparator sep = new ToolStripSeparator();
             
             //Show Controllers connected
-            item = new ToolStripMenuItem();
+           /* item = new ToolStripMenuItem();
             item.Text = "Controller";
             //item.Click += new System.EventHandler(Exit_Click);
             //item.Image = Resources.Exit;
@@ -31,7 +31,7 @@ namespace XInputMapper
             (menu.Items[0] as ToolStripMenuItem).DropDownItems.Add("1: Unplugged");
             (menu.Items[0] as ToolStripMenuItem).DropDownItems.Add("2: Unplugged");
             (menu.Items[0] as ToolStripMenuItem).DropDownItems.Add("3: Unplugged");
-            (menu.Items[0] as ToolStripMenuItem).DropDownItems.Add("4: Unplugged");
+            (menu.Items[0] as ToolStripMenuItem).DropDownItems.Add("4: Unplugged");*/
 
             //menu.Items.Add(sep);
 
@@ -49,7 +49,7 @@ namespace XInputMapper
             //item.Image = Resources.Exit;
             //menu.Items.Add(item);
 
-            menu.Items.Add(sep);
+           // menu.Items.Add(sep);
 
             // Exit
             item = new ToolStripMenuItem();
